@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+<form method="post" action="" enctype="multipart/form-data">
+	{% csrf_token %}
+
+ {% for field in form %}
+	 <span> {{field.errors}} </span><!-- error if they didnt fill out a form field -->
+	 <label>  {{ field.label_tag }}</label> <!-- for the label tag -->
+	 <div> {{ field }} </div>
+
+ {% endfor %}
+
+  <input type="submit" value="Submit">
+
+</form>
+</body>
+</html>

@@ -1,0 +1,18 @@
+PREVIOUSLY
+
+-change views.py from functions to classes 
+
+
+TO DO
+- look at the simple forms video to know about (upvotes and downvotes/ rank/rate)
+https://www.youtube.com/watch?v=wDuqObGbLnI&list=PL6gx4Cwl9DGBlmzzFcLgDhKTTfNLfX1IK&index=22
+
+-look for how ppics are cropped and/or adjusted and/or modified (since we need to cater for all types of photos landscape and portrait)
+
+-look for how pictures are displayed from the latest in the explore page
+
+-search bar
+
+-know location and get nearby
+
+-TRY FINISHING THE BACK END FIRST SINCE STYLING WILL BE EASIER
